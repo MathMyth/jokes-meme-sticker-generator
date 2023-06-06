@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "Funny Generator",
+  "version": "1.0",
+  "description": "Generate jokes, GIFs, and stickers.",
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_title": "Funny Generator"
+  },
+  "permissions": [
+    "https://jokeapi.dev/*",
+    "https://api.giphy.com/*"
+  ]
+}
